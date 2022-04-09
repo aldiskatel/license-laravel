@@ -11,4 +11,32 @@ a License software published by Neumedira Indonesia
 > APP_LICENSE={your license key}
 
 ## put this to your controller
+implement ``Aldiskatel\License\NeuLicense`` in use below namespace
+>namespace App\Http\Controller;
+
+>``use Aldiskatel\License\NeuLicense;``
+
+## Then implement verify method to your controller
 > NeuLicense::verify();
+
+## Example
+
+```php
+<?php
+
+namespace App\Http\Controllers; // add this namespace
+
+use ...
+use Aldiskatel\License\NeuLicense;
+use ...
+
+class ExampleController extends Controller
+{
+
+    public function index()
+    {
+      //Put this to your code
+      NeuLicense::verify(); // add this function
+    }
+}
+```
