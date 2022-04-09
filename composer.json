@@ -1,0 +1,24 @@
+{
+    "name": "aldiskatel/license",
+    "description": "a License software published by Neumedira Indonesia",
+    "license": "MIT",
+    "authors": [{
+        "name": "aldiskatel",
+        "email": "gmail@aldiskatel.net"
+    }],
+    "require": {
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aldiskatel\\License\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aldiskatel\\License\\NeuLicenseServiceProvider"
+            ]
+        }
+    }
+}
