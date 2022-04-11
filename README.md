@@ -1,8 +1,8 @@
-# license-laravel
+# license-laravel (BETA)
 a License software published by Neumedira Indonesia
 
 ## Register your code to us
-> send PR with name,url of your site
+> https://license.neumedira.com/register
 
 ## Start adding our lib
 > composer require aldiskatel/license
